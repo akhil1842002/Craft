@@ -1,0 +1,47 @@
+.who-we-are {
+    padding: 80px 30px 100px 30px;
+    display: flex;
+}
+
+.who-we-are div {
+    padding-bottom: 20px;
+}
+
+.who-we-are-btn {
+    border: 2px solid black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+.who-we-are-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.who-we-are-img img {
+    height: 600px;
+}
+
+.who-we-are p {
+    color: #707981;
+}
+
+.who-we-are h1 {
+    font-weight: 100;
+}
+
+.hr hr {
+    width: 80px;
+    border: 3px solid;
+    color: black;
+}
+
+.Passion p{
+    line-height: 2.0;
+}
+
+.Passion img{
+    height: 400px;
+} 
+

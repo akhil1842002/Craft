@@ -1,0 +1,251 @@
+.who-we-are {
+    padding: 80px 30px 100px 30px;
+    display: flex;
+}
+
+.who-we-are div {
+    padding-bottom: 20px;
+}
+
+.who-we-are-btn {
+    border: 2px solid black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+.who-we-are-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.who-we-are-img img {
+    height: 600px;
+}
+
+.who-we-are p {
+    color: #707981;
+}
+
+.who-we-are h1 {
+    font-weight: 100;
+}
+
+.hr hr {
+    width: 80px;
+    border: 3px solid;
+    color: black;
+}
+
+.portfolio {
+    background-color: #90A8AF;
+    padding: 100px 30px 100px 30px;
+}
+
+.work-photo {
+    padding-top: 80px;
+}
+
+.work-photo img {
+    height: 500px;
+}
+
+.work-photo div {
+    padding: 10px;
+}
+
+.work {
+    position: relative;
+}
+
+.work-name-con {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work p {
+    visibility: visible;
+    opacity: 0;
+}
+
+.work-name-con:hover {
+    opacity: 1;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.work-photo a:hover {
+    transition-duration: 0.3s;
+    opacity: .8;
+}
+
+.portfolio-btn {
+    padding-top: 90px;
+}
+
+.portfolio-btn button {
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border: 3px solid white;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.portfolio-btn button:hover {
+    background-color: white;
+    font-weight: 500;
+}
+
+.service {
+    padding: 80px 30px 30px 30px;
+    display: flex;
+}
+
+.service h4 {
+    font-weight: 100;
+}
+
+.service p {
+    color: #707981;
+}
+
+.service div {
+    padding-bottom: 5px;
+}
+
+.who-we-are-img img {
+    height: 600px;
+}
+
+.hr hr {
+    width: 80px;
+    border: 3px solid;
+    color: black;
+}
+
+
+.testimonial {
+    background-color: #F8F9FA;
+}
+
+.slider {
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+} 
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+} */
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #d2d4d2 !important;
+} 
+
+span {
+    font-size: 18px;
+    position: relative;
+    /* top: -5px; */
+}
+
+.owl-nav span{
+    font-size: 45px;
+    color: black;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.item{
+    background-color: #d0c7d6;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.get-in-touch{
+    background-color: #20C997;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.get-in-touch button {
+    padding: 15px 30px 15px 30px;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.get-in-touch-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.get-in-touch button:hover {
+    background-color: white;
+    font-weight: 500;
+}
+
+.touch-para{
+    min-width: 300px;
+    max-width: 650px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+.i-style{
+    color: #2be809;
+    font-size: 30px;
+}

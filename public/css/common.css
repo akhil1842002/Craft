@@ -1,0 +1,38 @@
+.parent {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-above-content {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+}
+
+.video-above-content h1 {
+    /* font-size: 60px; */
+    text-align: center;
+}
+
+.navbar {
+    background-color: #20C997;
+}
+
+.footer-title{
+    font-weight: 700;
+}
+
+.contact-title{
+    color: #5E656B;
+}
+
+.footer a{
+    color: black;
+}
