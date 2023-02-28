@@ -185,7 +185,7 @@
     top: 50%;
     transform: translateY(-50%);
     background: #d2d4d2 !important;
-} 
+}
 
 span {
     font-size: 18px;
@@ -193,7 +193,7 @@ span {
     /* top: -5px; */
 }
 
-.owl-nav span{
+.owl-nav span {
     font-size: 45px;
     color: black;
 }
@@ -202,12 +202,12 @@ span {
     outline: none;
 }
 
-.item{
+.item {
     background-color: #d0c7d6;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.get-in-touch{
+.get-in-touch {
     background-color: #20C997;
     padding: 60px;
     display: flex;
@@ -226,7 +226,7 @@ span {
     border-radius: 0;
 }
 
-.get-in-touch-title{
+.get-in-touch-title {
     font-size: 30px;
     text-align: center;
 }
@@ -236,7 +236,7 @@ span {
     font-weight: 500;
 }
 
-.touch-para{
+.touch-para {
     min-width: 300px;
     max-width: 650px;
     text-align: center;
@@ -245,7 +245,7 @@ span {
 
 
 
-.i-style{
+.i-style {
     color: #2be809;
     font-size: 30px;
 }
