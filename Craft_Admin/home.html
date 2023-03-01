@@ -64,7 +64,7 @@
             height: 45px;
             margin-left: 25%;
             text-align: center;
-            background: #8338ec;
+            background: aqua;
             color: #fff;
             font-size: 15px;
             text-transform: Uppercase;
@@ -82,6 +82,7 @@
     data-menu="vertical-menu" data-color="bg-chartbg" data-col="2-columns">
 
     <!-- fixed-top-->
+
     <nav
         class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
         <div class="navbar-wrapper">
@@ -182,13 +183,13 @@
                 <li class=""><a href="home.html"><i class="ft-home"></i><span class="menu-title"
                             data-i18n="">Home</span></a>
                 </li>
-                <li class=" nav-item"><a href="about.html"><i class="ft-pie-chart"></i><span class="menu-title"
+                <li class=" nav-item"><a href="about-page.html"><i class="ft-pie-chart"></i><span class="menu-title"
                             data-i18n="">About</span></a>
                 </li>
-                <li class=" nav-item"><a href="portfolio.html"><i class="ft-droplet"></i><span class="menu-title"
+                <li class=" nav-item"><a href="portfolio-page.html"><i class="ft-droplet"></i><span class="menu-title"
                             data-i18n="">Portfolio</span></a>
                 </li>
-                <li class=" nav-item"><a href="contact.html"><i class="ft-layers"></i><span class="menu-title"
+                <li class=" nav-item"><a href="contact-page.html"><i class="ft-layers"></i><span class="menu-title"
                             data-i18n="">Contact</span></a>
                 </li>
             </ul>
@@ -197,6 +198,7 @@
     </div>
 
     <div class="app-content content">
+
         <div class="content-wrapper">
             <!-- <div class="content-wrapper-before"></div> -->
             <div class="content-header row">
@@ -211,7 +213,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="primary-color-from">
 
                             <div class="card">
                                 <div class="card-header">
@@ -220,7 +222,8 @@
                                 <div class="card-block">
                                     <div class="card-body">
                                         <fieldset class="form-group">
-                                            <input type="text" class="form-control" id="primary-color">
+                                            <input type="text" class="form-control primary-color-input"
+                                                id="primary-color">
                                         </fieldset>
                                     </div>
                                 </div>
@@ -237,7 +240,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="secondary-color-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -246,7 +249,8 @@
                                 <div class="card-block">
                                     <div class="card-body">
                                         <fieldset class="form-group">
-                                            <input type="text" class="form-control" id="secondary-color">
+                                            <input type="text" class="form-control secondary-color-input"
+                                                id="secondary-color">
                                         </fieldset>
                                     </div>
                                 </div>
@@ -262,7 +266,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="header-form">
 
                             <div class="card pb-3">
                                 <div class="card-header">
@@ -273,7 +277,7 @@
                                         <img id="preview-header-image" />
                                     </div>
                                     <label for="header-file-upload">Upload Image</label>
-                                    <input type="file" id="header-file-upload" accept="image/*"
+                                    <input type="file" class="header-input" id="header-file-upload" accept="image/*"
                                         onchange="onHeaderImageUpload(event)" />
                                 </div>
                                 <div class="d-flex mt-1 justify-content-center">
@@ -288,7 +292,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="who-input-form">
 
                             <div class="card pb-3">
                                 <div class="card-header">
@@ -299,7 +303,7 @@
                                         <img id="preview-who-image" />
                                     </div>
                                     <label for="who-file-upload">Upload Image</label>
-                                    <input type="file" id="who-file-upload" accept="image/*"
+                                    <input type="file" class="who-input" id="who-file-upload" accept="image/*"
                                         onchange="onWhoImageUpload(event)" />
                                 </div>
                                 <div class="d-flex mt-1 justify-content-center">
@@ -324,7 +328,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="work-one-form">
 
                             <div class="card pb-3">
                                 <div class="card-header">
@@ -335,7 +339,7 @@
                                         <img id="work-one-image" />
                                     </div>
                                     <label for="workone-file-upload">Upload Image</label>
-                                    <input type="file" id="workone-file-upload" accept="image/*"
+                                    <input type="file" class="work-one-input" id="workone-file-upload" accept="image/*"
                                         onchange="onWorkOneImageUpload(event);" />
                                 </div>
                                 <div class="d-flex mt-1 justify-content-center">
@@ -351,7 +355,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="work-two-form">
 
                             <div class="card pb-3">
                                 <div class="card-header">
@@ -362,7 +366,7 @@
                                         <img id="work-two-image" />
                                     </div>
                                     <label for="worktwo-file-upload">Upload Image</label>
-                                    <input type="file" id="worktwo-file-upload" accept="image/*"
+                                    <input type="file" class="work-two-input" id="worktwo-file-upload" accept="image/*"
                                         onchange="onWorkTwoImageUpload(event);" />
                                 </div>
                                 <div class="d-flex mt-1 justify-content-center">
@@ -377,19 +381,19 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="work-three-form">
 
                             <div class="card pb-3">
                                 <div class="card-header">
-                                    <h4 class="card-title">Who Three</h4>
+                                    <h4 class="card-title">Work Three</h4>
                                 </div>
                                 <div class="image-preview-container">
                                     <div class="preview">
                                         <img id="work-three-image" />
                                     </div>
                                     <label for="workthree-file-upload">Upload Image</label>
-                                    <input type="file" id="workthree-file-upload" accept="image/*"
-                                        onchange="onWorkThreeImageUpload(event);" />
+                                    <input type="file" class="work-three-input" id="workthree-file-upload"
+                                        accept="image/*" onchange="onWorkThreeImageUpload(event);" />
                                 </div>
                                 <div class="d-flex mt-1 justify-content-center">
                                     <button type="submit"
@@ -403,7 +407,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="work-four-form">
 
                             <div class="card pb-3">
                                 <div class="card-header">
@@ -414,8 +418,8 @@
                                         <img id="work-four-image" />
                                     </div>
                                     <label for="workfour-file-upload">Upload Image</label>
-                                    <input type="file" id="workfour-file-upload" accept="image/*"
-                                        onchange="onWorkFourImageUpload(event);" />
+                                    <input type="file" class="work-four-input" id="workfour-file-upload"
+                                        accept="image/*" onchange="onWorkFourImageUpload(event);" />
                                 </div>
                                 <div class="d-flex mt-1 justify-content-center">
                                     <button type="submit"
@@ -438,7 +442,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="test-one-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -450,7 +454,7 @@
                                             <input type="text" class="form-control" id="first-test-name">
                                         </fieldset>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="card-header">
                                     <h4 class="card-title">Review</h4>
@@ -462,8 +466,8 @@
                                     </fieldset>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button"
-                                        class="btn btn-success w-25 btn-min-width mr-1 mb-1">Success</button>
+                                    <button type="submit"
+                                        class="btn btn-success first-submit w-25 btn-min-width mr-1 mb-1">Success</button>
                                 </div>
                             </div>
 
@@ -473,7 +477,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="test-two-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -485,7 +489,7 @@
                                             <input type="text" class="form-control" id="second-test-name">
                                         </fieldset>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="card-header">
                                     <h4 class="card-title">Review</h4>
@@ -497,7 +501,7 @@
                                     </fieldset>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-success w-25 btn-min-width mr-1 mb-1">Success</button>
                                 </div>
                             </div>
@@ -508,7 +512,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="test-three-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -520,7 +524,7 @@
                                             <input type="text" class="form-control" id="third-test-name">
                                         </fieldset>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="card-header">
                                     <h4 class="card-title">Review</h4>
@@ -532,7 +536,7 @@
                                     </fieldset>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-success w-25 btn-min-width mr-1 mb-1">Success</button>
                                 </div>
                             </div>
@@ -543,7 +547,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="test-four-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -555,7 +559,7 @@
                                             <input type="text" class="form-control" id="fourth-test-name">
                                         </fieldset>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="card-header">
                                     <h4 class="card-title">Review</h4>
@@ -567,7 +571,7 @@
                                     </fieldset>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-success w-25 btn-min-width mr-1 mb-1">Success</button>
                                 </div>
                             </div>
@@ -578,7 +582,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="test-fifth-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -590,7 +594,7 @@
                                             <input type="text" class="form-control" id="fifth-test-name">
                                         </fieldset>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="card-header">
                                     <h4 class="card-title">Review</h4>
@@ -602,7 +606,7 @@
                                     </fieldset>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-success w-25 btn-min-width mr-1 mb-1">Success</button>
                                 </div>
                             </div>
@@ -613,7 +617,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-12">
 
-                        <form action="">
+                        <form action="" class="test-sixth-form">
 
                             <div class="card">
                                 <div class="card-header">
@@ -625,7 +629,7 @@
                                             <input type="text" class="form-control" id="sixth-test-name">
                                         </fieldset>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="card-header">
                                     <h4 class="card-title">Review</h4>
@@ -637,7 +641,7 @@
                                     </fieldset>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-success w-25 btn-min-width mr-1 mb-1">Success</button>
                                 </div>
                             </div>
@@ -688,6 +692,7 @@
 
     <script>
 
+        let headerImageData = ''
         function onHeaderImageUpload(event) {
             let imagePreviewElement = document.querySelector("#preview-header-image");
             const file = event.target.files[0];
@@ -696,8 +701,7 @@
 
             reader.onload = function (event) {
                 const base64 = event.target.result;
-                // Do something with the base64-encoded string, such as display it in an <img> tag
-                console.log(base64);
+                headerImageData = base64
                 console.log(imagePreviewElement);
                 imagePreviewElement.src = base64;
                 imagePreviewElement.style.display = "block";
@@ -706,6 +710,36 @@
             reader.readAsDataURL(file);
         }
 
+        function headerForm() {
+
+            const formContainer = document.querySelector('.header-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/header', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        headerImage: headerImageData
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        headerForm()
+
+        let whoImageData = ''
         function onWhoImageUpload(event) {
             let imagePreviewElement = document.querySelector("#preview-who-image");
             const file = event.target.files[0];
@@ -713,9 +747,7 @@
 
             reader.onload = function (event) {
                 const base64 = event.target.result;
-                // Do something with the base64-encoded string, such as display it in an <img> tag
-                console.log(base64);
-                console.log(imagePreviewElement);
+                whoImageData = base64
                 imagePreviewElement.src = base64;
                 imagePreviewElement.style.display = "block";
             };
@@ -723,6 +755,36 @@
             reader.readAsDataURL(file);
         }
 
+        function whoForm() {
+
+            const formContainer = document.querySelector('.who-input-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/who', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        whoImage: whoImageData
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        whoForm()
+
+        let workOneImage = ''
         function onWorkOneImageUpload(event) {
             let imagePreviewElement = document.querySelector("#work-one-image");
             const file = event.target.files[0];
@@ -730,9 +792,7 @@
 
             reader.onload = function (event) {
                 const base64 = event.target.result;
-                // Do something with the base64-encoded string, such as display it in an <img> tag
-                console.log(base64);
-                console.log(imagePreviewElement);
+                workOneImage = base64
                 imagePreviewElement.src = base64;
                 imagePreviewElement.style.display = "block";
             };
@@ -740,6 +800,36 @@
             reader.readAsDataURL(file);
         }
 
+        function workOneForm() {
+
+            const formContainer = document.querySelector('.work-one-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/work/one/image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        workOneImage: workOneImage
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        workOneForm()
+
+        let workTwoImage = ''
         function onWorkTwoImageUpload(event) {
             let imagePreviewElement = document.querySelector("#work-two-image");
             const file = event.target.files[0];
@@ -748,8 +838,7 @@
             reader.onload = function (event) {
                 const base64 = event.target.result;
                 // Do something with the base64-encoded string, such as display it in an <img> tag
-                console.log(base64);
-                console.log(imagePreviewElement);
+                workTwoImage = base64
                 imagePreviewElement.src = base64;
                 imagePreviewElement.style.display = "block";
             };
@@ -757,6 +846,36 @@
             reader.readAsDataURL(file);
         }
 
+        function workTwoForm() {
+
+            const formContainer = document.querySelector('.work-two-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/work/two/image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        workTwoImage: workTwoImage
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        workTwoForm()
+
+        let workThreeImage = ''
         function onWorkThreeImageUpload(event) {
             let imagePreviewElement = document.querySelector("#work-three-image");
             const file = event.target.files[0];
@@ -765,8 +884,7 @@
             reader.onload = function (event) {
                 const base64 = event.target.result;
                 // Do something with the base64-encoded string, such as display it in an <img> tag
-                console.log(base64);
-                console.log(imagePreviewElement);
+                workThreeImage = base64
                 imagePreviewElement.src = base64;
                 imagePreviewElement.style.display = "block";
             };
@@ -774,6 +892,36 @@
             reader.readAsDataURL(file);
         }
 
+        function workThreeForm() {
+
+            const formContainer = document.querySelector('.work-three-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/work/three/image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        workTwoImage: workTwoImage
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        workThreeForm()
+
+        let workFourImage = ''
         function onWorkFourImageUpload(event) {
             let imagePreviewElement = document.querySelector("#work-four-image");
             const file = event.target.files[0];
@@ -782,14 +930,303 @@
             reader.onload = function (event) {
                 const base64 = event.target.result;
                 // Do something with the base64-encoded string, such as display it in an <img> tag
-                console.log(base64);
-                console.log(imagePreviewElement);
+                workFourImage = base64
                 imagePreviewElement.src = base64;
                 imagePreviewElement.style.display = "block";
             };
 
             reader.readAsDataURL(file);
         }
+
+        function workFourForm() {
+
+            const formContainer = document.querySelector('.work-four-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/work/four/image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        workTwoImage: workTwoImage
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        workFourForm()
+
+        // form handler
+
+        function primaryColorForm() {
+
+            const formContainer = document.querySelector('.primary-color-from')
+
+            formContainer.addEventListener('submit', (e) => {
+
+                const primaryColorInput = document.querySelector('.primary-color-input').value
+
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/primary/color', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        primaryColor: primaryColorInput
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        primaryColorForm()
+
+        function secondaryColorForm() {
+
+            const formContainer = document.querySelector('.secondary-color-form')
+            console.log(formContainer);
+
+            formContainer.addEventListener('submit', (e) => {
+
+                const secondaryColorInput = document.querySelector('.secondary-color-input').value
+
+                e.preventDefault()
+
+                fetch('http://localhost:8000/add/secondary/color', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        secondaryColor: secondaryColorInput
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+
+        }
+        secondaryColorForm()
+
+        // testimonial
+
+        function testOneForm() {
+
+            const testOneFormContainer = document.querySelector('.test-one-form')
+            console.log(testOneFormContainer);
+
+            testOneFormContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const name = document.querySelector('#first-test-name').value
+                const review = document.querySelector('#first-review').value
+
+                fetch('http://localhost:8000/add/home/first/test', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        review: review
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+            })
+
+        }
+        testOneForm()
+
+
+        function testTwoForm() {
+
+            const testOneFormContainer = document.querySelector('.test-two-form')
+
+            testOneFormContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const name = document.querySelector('#second-test-name').value
+                const review = document.querySelector('#second-review').value
+
+                fetch('http://localhost:8000/add/home/second/test', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        review: review
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+
+            })
+
+        }
+        testTwoForm()
+
+        function testThreeForm() {
+
+            const testOneFormContainer = document.querySelector('.test-three-form')
+
+            testOneFormContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const name = document.querySelector('#third-test-name').value
+                const review = document.querySelector('#third-review').value
+
+                fetch('http://localhost:8000/add/home/third/test', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        review: review
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+
+            })
+
+        }
+        testThreeForm()
+
+        function testFourForm() {
+
+            const testOneFormContainer = document.querySelector('.test-four-form')
+
+            testOneFormContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const name = document.querySelector('#fourth-test-name').value
+                const review = document.querySelector('#fourth-review').value
+
+                fetch('http://localhost:8000/add/home/fourth/test', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        review: review
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+
+            })
+
+        }
+        testFourForm()
+
+        function testFifthForm() {
+
+            const testOneFormContainer = document.querySelector('.test-fifth-form')
+
+            testOneFormContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const name = document.querySelector('#fifth-test-name').value
+                const review = document.querySelector('#fifth-review').value
+
+                fetch('http://localhost:8000/add/home/fifth/test', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        review: review
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+
+            })
+
+        }
+        testFifthForm()
+
+        function testSixthForm() {
+
+            const testOneFormContainer = document.querySelector('.test-sixth-form')
+
+            testOneFormContainer.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const name = document.querySelector('#sixth-test-name').value
+                const review = document.querySelector('#sixth-review').value
+
+                fetch('http://localhost:8000/add/home/sixth/test', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        review: review
+                    })
+                }).then(res => res.json())
+                    .then(data => {
+                        if (data.success === true) {
+                            alert("Uploaded Successfully")
+                        } else {
+                            alert("Uploaded Failed")
+                        }
+                    })
+
+            })
+
+        }
+        testSixthForm()
 
     </script>
 </body>
